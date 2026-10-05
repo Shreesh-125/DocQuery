@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+
+# Generated RAG data
+faiss_vector_store/
+uploaded_documents/
+
+# Node
+node_modules/
+dist/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
